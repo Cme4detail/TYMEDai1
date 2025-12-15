@@ -1,0 +1,63 @@
+1. Relational Database Schema
+File: docs/DATA-MODEL-Relational.md
+
+This includes:
+
+✅ 45+ tables with complete SQL definitions
+✅ PostgreSQL/ZeroDB optimized schemas
+✅ Row-Level Security (RLS) policies
+✅ Encryption strategy for sensitive data
+✅ Indexes and performance optimizations
+✅ Foreign key relationships
+✅ Check constraints and validations
+✅ Materialized views for analytics
+✅ Partitioning recommendations
+Key table groups:
+
+User Management (users, user_roles, user_preferences, user_grief_profiles)
+Social Integration (social_accounts, social_contacts, data_sync_logs)
+AI & Matching (ai_conversations, ai_messages, ai_introductions)
+Community (connections, messages, support_groups, group_members, group_posts)
+Funeral Planning (funeral_plans, planning_tasks, planning_expenses, planning_documents)
+Memorial & Legacy (memorials, memorial_tributes, memorial_media, virtual_candles, legacy_content)
+Professional Services (professional_profiles, service_listings, bookings, reviews)
+Support Resources (resources, user_resource_interactions, mood_journal, crisis_interventions)
+2. Vector Database Schema
+File: docs/DATA-MODEL-Vector.md
+
+This includes:
+
+✅ 6 vector collections with complete specifications
+✅ Pinecone/Weaviate/Qdrant configurations
+✅ 1536-dimension embeddings (OpenAI text-embedding-3-large)
+✅ Metadata schemas for filtering
+✅ Query examples and use cases
+✅ Embedding generation pipelines
+✅ Hybrid search strategies
+✅ Cost optimization techniques
+✅ Performance tuning
+Vector collections:
+
+user_embeddings (for semantic matching)
+grief_story_embeddings (for narrative similarity)
+resource_embeddings (for content recommendations)
+conversation_embeddings (for AI context)
+professional_service_embeddings (for provider matching)
+memorial_embeddings (for discovery)
+🔍 Would you like me to create something additional?
+I can generate:
+
+Visual ER Diagram (Entity-Relationship diagram using Mermaid)
+Database Migration Files (Prisma or Alembic format)
+Sample SQL Insert Statements (seed data)
+GraphQL Schema (if you prefer GraphQL over REST)
+TypeScript Type Definitions (from database schema)
+API Data Transfer Objects (DTOs)
+More detailed examples for specific tables
+Or would you like me to:
+
+Explain specific parts of the existing schemas?
+Create a simplified version?
+Add additional tables for specific features?
+Show you how the relational and vector models work together?
+Let me know what would be most helpfu
